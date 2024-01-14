@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using MvcMovie.Data;
+using MvcMovie.Models;
 
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
@@ -16,13 +17,20 @@ builder
 
 WebApplication app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+using (IServiceScope scope = app.Services.CreateScope())
 {
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
+    IServiceProvider services = scope.ServiceProvider;
+
+    SeedData.Initialize(services);
 }
+
+    // Configure the HTTP request pipeline.
+    if (!app.Environment.IsDevelopment())
+    {
+        app.UseExceptionHandler("/Home/Error");
+        // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+        app.UseHsts();
+    }
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
