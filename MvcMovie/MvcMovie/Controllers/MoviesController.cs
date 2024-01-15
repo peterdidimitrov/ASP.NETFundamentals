@@ -20,12 +20,14 @@ namespace MvcMovie.Controllers
         }
 
         // GET: Movies
+        [HttpGet]
         public async Task<IActionResult> Index()
         {
             return View(await _context.Movie.ToListAsync());
         }
 
         // GET: Movies/Details/5
+        [HttpGet]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -44,6 +46,7 @@ namespace MvcMovie.Controllers
         }
 
         // GET: Movies/Create
+        [HttpGet]
         public IActionResult Create()
         {
             return View();
@@ -66,6 +69,7 @@ namespace MvcMovie.Controllers
         }
 
         // GET: Movies/Edit/5
+        [HttpGet]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -117,6 +121,7 @@ namespace MvcMovie.Controllers
         }
 
         // GET: Movies/Delete/5
+        [HttpGet]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
