@@ -9,6 +9,8 @@ namespace MvcMovie.Models
 
         public string? Title { get; set; }
 
+        public string? Rating { get; set; }
+
         [Display(Name = "Release Date")]
         [DataType(DataType.Date)]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:M/dd/yyyy}")]
