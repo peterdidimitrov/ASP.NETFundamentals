@@ -12,12 +12,10 @@
 
         //Gerne
         public const string GerneRegularExpression = @"^[A-Z]+[a-zA-Z\s]*$";
-        public const int GerneMinLength = 3;
         public const int GerneMaxLength = 30;
 
         //Rating
         public const string RatingRegularExpression = @"^[A-Z]+[a-zA-Z0-9""'\s-]*$";
-        public const int RatingMinLength = 1;
         public const int RatingMaxLength = 5;
     }
 }

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MvcMovie.Data;
@@ -34,11 +30,12 @@ namespace MvcMovie.Controllers
                                             select m.Genre;
 
             IQueryable<Movie>? movies = from m in _context.Movie 
+                                        orderby m.Title
                                         select m;
 
             if (!String.IsNullOrEmpty(searchString))
             {
-                movies = movies.Where(s => s.Title!.Contains(searchString));
+                movies = movies.Where(s => s.Title!.StartsWith(searchString));
             }
 
             if (!string.IsNullOrEmpty(movieGenre))
@@ -46,7 +43,7 @@ namespace MvcMovie.Controllers
                 movies = movies.Where(x => x.Genre == movieGenre);
             }
 
-            var movieGenreVM = new MovieGenreViewModel
+            MovieGenreViewModel? movieGenreVM = new MovieGenreViewModel
             {
                 Genres = new SelectList(await genreQuery.Distinct().ToListAsync()),
                 Movies = await movies.ToListAsync()
