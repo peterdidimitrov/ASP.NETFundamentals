@@ -13,11 +13,12 @@ namespace MvcMovie.Models
 
         [Display(Name = "Release Date")]
         [DataType(DataType.Date)]
-        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:M/dd/yyyy}")]
+        //[DisplayFormat(DataFormatString = "{0:M/dd/yyyy}")]
+        //[DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:M/dd/yyyy}")]
         public DateTime ReleaseDate { get; set; }
 
-        [Range(Constants.MovieModelConstants.PriceMin, Constants.MovieModelConstants.PriceMax)]
-        [DisplayFormat(DataFormatString = "{0:C}", ApplyFormatInEditMode = true, NullDisplayText = "$0.00")]
+        [Range(Constants.MovieModelConstants.PriceMin, Constants.MovieModelConstants.PriceMax), DataType(DataType.Currency)]
+        //[DisplayFormat(DataFormatString = "${0,0}")]
         [Column(TypeName = "decimal(18, 2)")]
         public decimal Price { get; set; }
 
