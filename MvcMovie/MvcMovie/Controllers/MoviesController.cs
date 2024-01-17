@@ -30,7 +30,7 @@ namespace MvcMovie.Controllers
                                             select m.Genre;
 
             IQueryable<Movie>? movies = from m in _context.Movie 
-                                        orderby m.Title
+                                        orderby m.Title, m.ReleaseDate
                                         select m;
 
             if (!String.IsNullOrEmpty(searchString))
