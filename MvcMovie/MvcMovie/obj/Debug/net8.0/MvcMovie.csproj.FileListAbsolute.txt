@@ -765,3 +765,6 @@ C:\Users\Peter\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\obj\Debug\net8.0\re
 C:\Users\Peter\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\Peter\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
 C:\Users\Peter\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\obj\Debug\net8.0\MvcMovie.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\fuji\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\fuji\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\fuji\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\obj\Debug\net8.0\MvcMovie.MvcApplicationPartsAssemblyInfo.cs
