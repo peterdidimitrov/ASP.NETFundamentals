@@ -52,6 +52,7 @@ namespace MvcMovie.Models
                 await context.SaveChangesAsync();
             }
         }
+        
         public static async Task AddRoles(IServiceProvider serviceProvider)
         {
             using (RoleManager<IdentityRole> roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>())
@@ -62,6 +63,26 @@ namespace MvcMovie.Models
                 {
                     if (!await roleManager.RoleExistsAsync(role))
                         await roleManager.CreateAsync(new IdentityRole(role));
+                }
+            }
+        }
+        public static async Task AddManager(IServiceProvider serviceProvider)
+        {
+            using (UserManager<IdentityUser> userManager = serviceProvider.GetRequiredService<UserManager<IdentityUser>>())
+            {
+                string email = "peshko@test.com";
+                string password = "123456";
+
+                string[] roles = new[] { "Admin", "Manager"};
+
+                if (await userManager.FindByEmailAsync(email) == null) 
+                {
+                    var user = new IdentityUser();
+                    user.UserName = email;
+                    user.Email = email;
+
+                    await userManager.CreateAsync(user, password);
+                    await userManager.AddToRolesAsync(user, roles);
                 }
             }
         }

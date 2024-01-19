@@ -80,8 +80,8 @@ namespace MvcMovie
                 // Seed roles if needed
                 await SeedData.AddRoles(services);
 
-                // Seed  if needed
-                //await SeedData.AddRoles(services);
+                // Seed Manager
+                await SeedData.AddManager(services);
             }
 
             app.Run();
