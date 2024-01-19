@@ -29,7 +29,6 @@ namespace MvcMovie.Models
 
         [RegularExpression(Constants.MovieModelConstants.RatingRegularExpression)]
         [StringLength(Constants.MovieModelConstants.RatingMaxLength)]
-        [Required]
         public string? Rating { get; set; }
     }
 }

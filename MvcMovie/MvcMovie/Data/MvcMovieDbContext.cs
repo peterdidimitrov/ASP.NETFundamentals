@@ -6,9 +6,9 @@ using MvcMovie.Constants;
 
 namespace MvcMovie.Data
 {
-    public class MvcMovieContext : IdentityDbContext
+    public class MvcMovieDbContext : IdentityDbContext
     {
-        public MvcMovieContext (DbContextOptions<MvcMovieContext> options)
+        public MvcMovieDbContext (DbContextOptions<MvcMovieDbContext> options)
             : base(options)
         {
         }

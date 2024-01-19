@@ -10,7 +10,7 @@ using MvcMovie.Data;
 
 namespace MvcMovie.Migrations
 {
-    [DbContext(typeof(MvcMovieContext))]
+    [DbContext(typeof(MvcMovieDbContext))]
     partial class MvcMovieContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
@@ -246,7 +246,6 @@ namespace MvcMovie.Migrations
                         .HasColumnType("decimal(18, 2)");
 
                     b.Property<string>("Rating")
-                        .IsRequired()
                         .HasMaxLength(5)
                         .HasColumnType("nvarchar(5)");
 
@@ -260,10 +259,10 @@ namespace MvcMovie.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Movie", (string)null);
+                    b.ToTable("Movie");
                 });
 
-            modelBuilder.Entity("MvcMovie.Data.SampleUser", b =>
+            modelBuilder.Entity("MvcMovie.Models.SampleUser", b =>
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
 
