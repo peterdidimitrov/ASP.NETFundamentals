@@ -1,0 +1,28 @@
+﻿@model int
+@{
+    ViewData["Title"] = $"First {Model} numbers";
+}
+
+<h1 class="display-4">@ViewData["Title"]</h1>
+
+<div class="form-row align-items-center">
+    <div class="col-sm-3 my-1">
+        <input type="number" id="limitInput" placeholder="Choose your number">
+        <button class="btn btn-primary" onclick="SetLimit()">Get numbers</button>
+    </div>
+</div>
+
+<ul>
+    @for (int i = 1; i <= Model; i++)
+    {
+        <li>@i</li>
+    }
+</ul>
+
+<a asp-action="NumbersToN" asp-route-num="23">First 23 Numbers</a>
+
+
+
+@section Scripts {
+    <script src="~/js/numbers.js"></script>
+}
