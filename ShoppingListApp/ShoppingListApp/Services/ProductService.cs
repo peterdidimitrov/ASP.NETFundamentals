@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ShoppingListApp.Contracts;
 using ShoppingListApp.Data;
+using ShoppingListApp.Data.Models;
 using ShoppingListApp.Models;
 
 namespace ShoppingListApp.Services
@@ -9,13 +10,21 @@ namespace ShoppingListApp.Services
     {
         private readonly ShoppingListDbContext context;
 
-        public ProductService(ShoppingListDbContext _context) 
-        { 
+        public ProductService(ShoppingListDbContext _context)
+        {
             context = _context;
         }
-        public Task AddProductAsync(ProductViewModel model)
+
+        public async Task AddProductAsync(ProductViewModel model)
         {
-            throw new NotImplementedException();
+            var entity = new Product()
+            {
+                Name = model.Name,
+                ProductNote = model.ProductNote
+            };
+
+            await context.Products.AddAsync(entity);
+            await context.SaveChangesAsync();
         }
 
         public Task DeleteProductAsync(int id)
@@ -23,9 +32,17 @@ namespace ShoppingListApp.Services
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<ProductViewModel>> GetAllAsync()
+        public async Task<IEnumerable<ProductViewModel>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            return await context.Products
+                .AsNoTracking()
+                .Select(p => new ProductViewModel()
+                {
+                    Id = p.Id,
+                    Name = p.Name,
+                    ProductNote = p.ProductNote
+                })
+                .ToListAsync();
         }
 
         public Task<ProductViewModel> GetByIdAsync(int id)

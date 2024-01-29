@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using ShoppingListApp.Data.Models;
+using System.ComponentModel.DataAnnotations;
 
 namespace ShoppingListApp.Models
 {
@@ -10,5 +11,7 @@ namespace ShoppingListApp.Models
         [Display(Name = "Product Name")]
         [StringLength(100, MinimumLength = 3, ErrorMessage = "Field {0} must be  between {2} and {1} symbols")]
         public required string Name { get; set; }
+
+        public List<ProductNote>? ProductNote { get; set; }
     }
 }

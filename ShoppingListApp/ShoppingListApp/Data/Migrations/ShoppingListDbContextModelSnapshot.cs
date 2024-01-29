@@ -38,7 +38,7 @@ namespace ShoppingListApp.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Products", t =>
+                    b.ToTable("Products", null, t =>
                         {
                             t.HasComment("Shopping  List Product");
                         });
@@ -67,7 +67,7 @@ namespace ShoppingListApp.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("ProductNotes", t =>
+                    b.ToTable("ProductNotes", null, t =>
                         {
                             t.HasComment("Product Note");
                         });

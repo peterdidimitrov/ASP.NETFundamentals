@@ -17,8 +17,6 @@ namespace ShoppingListApp.Data.Models
         public required string Name { get; set; }
 
         [Comment("List of ProductNotes")]
-        public required List<ProductNote> ProductNote { get; set; }
-
-
+        public List<ProductNote>? ProductNote { get; set; }
     }
 }
