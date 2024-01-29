@@ -24,7 +24,6 @@ namespace ShoppingListApp.Controllers
         [HttpGet]
         public IActionResult Add()
         {
-            //var model = new ProductViewModel();
             return View();
         }
 
@@ -37,6 +36,48 @@ namespace ShoppingListApp.Controllers
             }
 
             await productService.AddProductAsync(model);
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Edit(int id)
+        {
+            var model = await productService.GetByIdAsync(id);
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(ProductViewModel model)
+        {
+            if (!ModelState.IsValid) 
+            {
+                return View(model);
+            }
+
+            await productService.UpdateProductAsync(model);
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var model = await productService.GetByIdAsync(id);
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Delete(ProductViewModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
+            await productService.DeleteProductAsync(model.Id);
 
             return RedirectToAction(nameof(Index));
         }
