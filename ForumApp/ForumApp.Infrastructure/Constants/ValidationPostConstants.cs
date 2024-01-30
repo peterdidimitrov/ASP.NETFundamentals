@@ -24,5 +24,15 @@
         /// Minimal Post Content length
         /// </summary>
         public const int PostContentMinLength = 30;
+
+        /// <summary>
+        /// Require Error message text
+        /// </summary>
+        public const string RequireErrorMessage = "The {0} field is required.";
+        
+        /// <summary>
+        /// Title Error message text
+        /// </summary>
+        public const string StringLengthErrorMessage = "The {0} must between {2} and {1} cheracters long.";
     }
 }

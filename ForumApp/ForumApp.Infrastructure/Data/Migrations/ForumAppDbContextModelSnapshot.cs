@@ -44,7 +44,27 @@ namespace ForumApp.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Posts", (string)null);
+                    b.ToTable("Posts");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Content = "First Post Content",
+                            Title = "My First Post"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Content = "Second Post Content",
+                            Title = "My Second Post"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Content = "Third Post Content",
+                            Title = "My Third Post"
+                        });
                 });
 #pragma warning restore 612, 618
         }

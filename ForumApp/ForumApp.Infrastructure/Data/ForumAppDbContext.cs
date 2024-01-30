@@ -1,4 +1,5 @@
-﻿using ForumApp.Infrastructure.Data.Models;
+﻿using ForumApp.Infrastructure.Data.Configuration;
+using ForumApp.Infrastructure.Data.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -20,6 +21,7 @@ namespace ForumApp.Infrastructure.Data
         {
             //builder
             //    .Entity<Post>();
+            builder.ApplyConfiguration(new PostConfiguration());
 
             base.OnModelCreating(builder);
         }

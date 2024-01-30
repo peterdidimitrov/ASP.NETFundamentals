@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ForumApp.Infrastructure.Data.Models
 {
+    [Comment("Post table")]
     public class Post
     {
         [Key]
