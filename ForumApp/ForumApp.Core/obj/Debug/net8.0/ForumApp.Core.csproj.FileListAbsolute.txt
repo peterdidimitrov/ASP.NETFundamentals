@@ -1,0 +1,16 @@
+C:\Users\Peter\Desktop\ASP.NETFundamentals\ForumApp\ForumApp.Core\bin\Debug\net8.0\ForumApp.Core.deps.json
+C:\Users\Peter\Desktop\ASP.NETFundamentals\ForumApp\ForumApp.Core\bin\Debug\net8.0\ForumApp.Core.dll
+C:\Users\Peter\Desktop\ASP.NETFundamentals\ForumApp\ForumApp.Core\bin\Debug\net8.0\ForumApp.Core.pdb
+C:\Users\Peter\Desktop\ASP.NETFundamentals\ForumApp\ForumApp.Core\bin\Debug\net8.0\ForumApp.Infrastructure.dll
+C:\Users\Peter\Desktop\ASP.NETFundamentals\ForumApp\ForumApp.Core\bin\Debug\net8.0\ForumApp.Infrastructure.pdb
+C:\Users\Peter\Desktop\ASP.NETFundamentals\ForumApp\ForumApp.Core\obj\Debug\net8.0\ForumApp.Core.csproj.AssemblyReference.cache
+C:\Users\Peter\Desktop\ASP.NETFundamentals\ForumApp\ForumApp.Core\obj\Debug\net8.0\ForumApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Peter\Desktop\ASP.NETFundamentals\ForumApp\ForumApp.Core\obj\Debug\net8.0\ForumApp.Core.AssemblyInfoInputs.cache
+C:\Users\Peter\Desktop\ASP.NETFundamentals\ForumApp\ForumApp.Core\obj\Debug\net8.0\ForumApp.Core.AssemblyInfo.cs
+C:\Users\Peter\Desktop\ASP.NETFundamentals\ForumApp\ForumApp.Core\obj\Debug\net8.0\ForumApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\Peter\Desktop\ASP.NETFundamentals\ForumApp\ForumApp.Core\obj\Debug\net8.0\ForumApp.Core.sourcelink.json
+C:\Users\Peter\Desktop\ASP.NETFundamentals\ForumApp\ForumApp.Core\obj\Debug\net8.0\ForumApp.Core.csproj.CopyComplete
+C:\Users\Peter\Desktop\ASP.NETFundamentals\ForumApp\ForumApp.Core\obj\Debug\net8.0\ForumApp.Core.dll
+C:\Users\Peter\Desktop\ASP.NETFundamentals\ForumApp\ForumApp.Core\obj\Debug\net8.0\refint\ForumApp.Core.dll
+C:\Users\Peter\Desktop\ASP.NETFundamentals\ForumApp\ForumApp.Core\obj\Debug\net8.0\ForumApp.Core.pdb
+C:\Users\Peter\Desktop\ASP.NETFundamentals\ForumApp\ForumApp.Core\obj\Debug\net8.0\ref\ForumApp.Core.dll
