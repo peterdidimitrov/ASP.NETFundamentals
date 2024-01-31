@@ -23,9 +23,9 @@
                         <p class="card-text">@post.Content</p>
                         <div class="d-grid gap-2">
                             <a asp-controller="Post" asp-action="Edit" asp-route-id="@post.Id" class="btn btn-warning">Edit</a>
-                            <form method="get" class="mt-2" asp-controller="Post" asp-action="Delete" asp-route-id="@post.Id">
+                            <form class="mt-2" asp-controller="Post" asp-action="Delete" asp-route-id="@post.Id">
                                 <div class="d-grid gap-2">
-                                    <input type="submit" value="Delete" class="btn btn-danger mb-2" />
+                                    <a class="btn btn-danger mb-2" onclick="checkDelete(`@post.Title`);">Delete</a>
                                 </div>
                             </form>
                         </div>
@@ -39,3 +39,25 @@ else
 {
     <p class="text-center">No posts yet!</p>
 }
+
+@section Scripts {
+    <script>
+        function checkDelete(title) {
+            if (confirm(`Are you sure you want to delete post: ${title}`)) 
+            {
+                document.getElementsByTagName('form')[0].submit();
+            }
+            
+            return false;
+        }
+    </script>
+}
+
+@* If onclick="confirm('Are you sure you want to delete post: @post.Title')" does not work use this script:
+   @section Scripts {
+    <script>
+        function checkDelete(title) {
+            return confirm(`Are you sure you want to delete post: ${title}`)
+        }
+    </script>
+} *@
