@@ -11,7 +11,7 @@ using MvcMovie.Data;
 
 namespace MvcMovie.Migrations
 {
-    [DbContext(typeof(MvcMovieContext))]
+    [DbContext(typeof(MvcMovieDbContext))]
     [Migration("20240117084526_AddIdentity")]
     partial class AddIdentity
     {

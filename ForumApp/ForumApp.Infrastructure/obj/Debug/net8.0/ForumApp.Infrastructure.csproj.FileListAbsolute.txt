@@ -1,0 +1,15 @@
+C:\Users\Peter\Desktop\ASP.NETFundamentals\ForumApp\ForumApp.Infrastructure\bin\Debug\net8.0\ForumApp.Infrastructure.deps.json
+C:\Users\Peter\Desktop\ASP.NETFundamentals\ForumApp\ForumApp.Infrastructure\bin\Debug\net8.0\ForumApp.Infrastructure.runtimeconfig.json
+C:\Users\Peter\Desktop\ASP.NETFundamentals\ForumApp\ForumApp.Infrastructure\bin\Debug\net8.0\ForumApp.Infrastructure.dll
+C:\Users\Peter\Desktop\ASP.NETFundamentals\ForumApp\ForumApp.Infrastructure\bin\Debug\net8.0\ForumApp.Infrastructure.pdb
+C:\Users\Peter\Desktop\ASP.NETFundamentals\ForumApp\ForumApp.Infrastructure\obj\Debug\net8.0\ForumApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Peter\Desktop\ASP.NETFundamentals\ForumApp\ForumApp.Infrastructure\obj\Debug\net8.0\ForumApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Peter\Desktop\ASP.NETFundamentals\ForumApp\ForumApp.Infrastructure\obj\Debug\net8.0\ForumApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Peter\Desktop\ASP.NETFundamentals\ForumApp\ForumApp.Infrastructure\obj\Debug\net8.0\ForumApp.Infrastructure.AssemblyInfo.cs
+C:\Users\Peter\Desktop\ASP.NETFundamentals\ForumApp\ForumApp.Infrastructure\obj\Debug\net8.0\ForumApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Peter\Desktop\ASP.NETFundamentals\ForumApp\ForumApp.Infrastructure\obj\Debug\net8.0\ForumApp.Infrastructure.sourcelink.json
+C:\Users\Peter\Desktop\ASP.NETFundamentals\ForumApp\ForumApp.Infrastructure\obj\Debug\net8.0\ForumApp.Infrastructure.dll
+C:\Users\Peter\Desktop\ASP.NETFundamentals\ForumApp\ForumApp.Infrastructure\obj\Debug\net8.0\refint\ForumApp.Infrastructure.dll
+C:\Users\Peter\Desktop\ASP.NETFundamentals\ForumApp\ForumApp.Infrastructure\obj\Debug\net8.0\ForumApp.Infrastructure.pdb
+C:\Users\Peter\Desktop\ASP.NETFundamentals\ForumApp\ForumApp.Infrastructure\obj\Debug\net8.0\ForumApp.Infrastructure.genruntimeconfig.cache
+C:\Users\Peter\Desktop\ASP.NETFundamentals\ForumApp\ForumApp.Infrastructure\obj\Debug\net8.0\ref\ForumApp.Infrastructure.dll

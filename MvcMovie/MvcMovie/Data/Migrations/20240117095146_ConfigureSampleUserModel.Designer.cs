@@ -11,7 +11,7 @@ using MvcMovie.Data;
 
 namespace MvcMovie.Migrations
 {
-    [DbContext(typeof(MvcMovieContext))]
+    [DbContext(typeof(MvcMovieDbContext))]
     [Migration("20240117095146_ConfigureSampleUserModel")]
     partial class ConfigureSampleUserModel
     {

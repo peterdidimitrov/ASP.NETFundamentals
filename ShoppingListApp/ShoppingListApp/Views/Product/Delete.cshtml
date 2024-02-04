@@ -1,0 +1,27 @@
+﻿@model ProductViewModel
+
+@{
+    ViewBag.Title = "Delete Product";
+}
+
+<h2 class="text-center">@ViewBag.Title</h2>
+<hr />
+<p style="color: orangered">You are going to delete "@(Model.Name)" product. Are you sure?</p>
+
+<div class="row">
+    <form method="post">
+        <div class="form-group">
+            <input asp-for="Id" type="hidden" />
+            <div class="mb-3">
+                <input asp-for="Name" type="hidden">
+                <span asp-validation-for="Name" class="small text-danger"></span>
+            </div>
+        </div>
+        <input class="btn btn-danger" type="submit" value="Yes" />
+        <a class="btn btn-primary" asp-action="Index">No</a>
+    </form>
+    
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,16 +1,18 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MvcMovie.Data;
 using MvcMovie.Models;
+using System.Configuration;
 
 namespace MvcMovie.Controllers
 {
     public class MoviesController : Controller
     {
-        private readonly MvcMovieContext _context;
+        private readonly MvcMovieDbContext _context;
 
-        public MoviesController(MvcMovieContext context)
+        public MoviesController(MvcMovieDbContext context)
         {
             _context = context;
         }
@@ -70,9 +72,9 @@ namespace MvcMovie.Controllers
 
             return View(movie);
         }
-
         // GET: Movies/Create
         [HttpGet]
+        [Authorize(Roles = "Admin, Manager")]
         public IActionResult Create()
         {
             return View();
@@ -83,6 +85,7 @@ namespace MvcMovie.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin, Manager")]
         public async Task<IActionResult> Create([Bind("Id,Title,ReleaseDate,Genre,Price,Rating")] Movie movie)
         {
             if (ModelState.IsValid)
@@ -96,6 +99,7 @@ namespace MvcMovie.Controllers
 
         // GET: Movies/Edit/5
         [HttpGet]
+        [Authorize(Roles = "Admin, Manager")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -116,6 +120,7 @@ namespace MvcMovie.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin, Manager")]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Title,ReleaseDate,Genre,Price,Rating")] Movie movie)
         {
             if (id != movie.Id)
@@ -148,6 +153,7 @@ namespace MvcMovie.Controllers
 
         // GET: Movies/Delete/5
         [HttpGet]
+        [Authorize(Roles = "Admin, Manager")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -168,6 +174,7 @@ namespace MvcMovie.Controllers
         // POST: Movies/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin, Manager")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var movie = await _context.Movie.FindAsync(id);
@@ -178,6 +185,41 @@ namespace MvcMovie.Controllers
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> ViewAllMovies(string movieGenre, string searchString)
+        {
+            if (_context.Movie == null)
+            {
+                return Problem("Entity set 'MvcMovieContext.Movie' is null.");
+            }
+
+            // Use LINQ to get list of genres.
+            IQueryable<string> genreQuery = from m in _context.Movie
+                                            orderby m.Genre
+                                            select m.Genre;
+
+            IQueryable<Movie>? movies = from m in _context.Movie
+                                        orderby m.Title, m.ReleaseDate
+                                        select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                movies = movies.Where(s => s.Title!.StartsWith(searchString));
+            }
+
+            if (!string.IsNullOrEmpty(movieGenre))
+            {
+                movies = movies.Where(x => x.Genre == movieGenre);
+            }
+
+            MovieGenreViewModel? movieGenreVM = new MovieGenreViewModel
+            {
+                Genres = new SelectList(await genreQuery.Distinct().ToListAsync()),
+                Movies = await movies.ToListAsync()
+            };
+
+            return View(movieGenreVM);
         }
 
         private bool MovieExists(int id)

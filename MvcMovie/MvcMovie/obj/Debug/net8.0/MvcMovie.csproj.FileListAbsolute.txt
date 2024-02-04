@@ -768,3 +768,10 @@ C:\Users\Peter\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\obj\Debug\net8.0\Mv
 C:\Users\fuji\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\fuji\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
 C:\Users\fuji\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\obj\Debug\net8.0\MvcMovie.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Peter\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Peter\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
+C:\Users\Peter\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\Peter\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\Peter\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Peter\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Peter\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\bin\Debug\net8.0\Microsoft.JSInterop.dll
