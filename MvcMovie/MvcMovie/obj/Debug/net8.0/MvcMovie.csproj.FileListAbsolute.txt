@@ -775,3 +775,10 @@ C:\Users\Peter\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\bin\Debug\net8.0\Mi
 C:\Users\Peter\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
 C:\Users\Peter\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\Peter\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\bin\Debug\net8.0\Microsoft.JSInterop.dll
+C:\Users\fuji\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\fuji\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
+C:\Users\fuji\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\fuji\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\fuji\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\fuji\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\fuji\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\bin\Debug\net8.0\Microsoft.JSInterop.dll
