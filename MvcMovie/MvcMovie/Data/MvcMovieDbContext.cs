@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using MvcMovie.Models;
 using MvcMovie.Constants;
+using MvcMovie.Data.Models;
 
 namespace MvcMovie.Data
 {

@@ -1,23 +1,9 @@
-﻿@using Microsoft.AspNetCore.Identity
-
-@inject SignInManager<IdentityUser> SignInManager
-@inject UserManager<IdentityUser> UserManager
-
-@{
+﻿@{
     ViewData["Title"] = "Index";
 }
-@if (SignInManager.IsSignedIn(User))
-{
-    <div class="text-center">
-        <h2>My Movie List</h2>
-        <p style="margin-top: 5em">Welcome to our <a class="navbar-brand" style="margin-right: 0" asp-area="" asp-controller="Movies" asp-action="Index">Movie App</a>!</p>
-    </div>
 
-}
-else if (!SignInManager.IsSignedIn(User))
-{
-    <div class="text-center">
-        <h2>My Movie List</h2>
-        <p style="margin-top: 5em">Welcome to our <a class="navbar-brand" style="margin-right: 0" asp-area="" asp-controller="Movies" asp-action="Index">Movie App</a>!</p>
-    </div>
-}
+<div class="text-center">
+    <h2>My Movie List</h2>
+    <p style="margin-top: 5em">Welcome to our <a class="navbar-brand" style="margin-right: 0" asp-area="" asp-controller="Movies" asp-action="Index">Movie App</a>!</p>
+</div>
+

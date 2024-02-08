@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fuji\\Desktop\\ASP.NETFundamentals\\MvcMovie\\MvcMovie\\MvcMovie.csproj": {}
+    "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\MvcMovie\\MvcMovie\\MvcMovie.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fuji\\Desktop\\ASP.NETFundamentals\\MvcMovie\\MvcMovie\\MvcMovie.csproj": {
+    "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\MvcMovie\\MvcMovie\\MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fuji\\Desktop\\ASP.NETFundamentals\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
+        "projectUniqueName": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
         "projectName": "MvcMovie",
-        "projectPath": "C:\\Users\\fuji\\Desktop\\ASP.NETFundamentals\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
-        "packagesPath": "C:\\Users\\fuji\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fuji\\Desktop\\ASP.NETFundamentals\\MvcMovie\\MvcMovie\\obj\\",
+        "projectPath": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
+        "packagesPath": "C:\\Users\\Peter\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\MvcMovie\\MvcMovie\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\fuji\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Peter\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -96,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
