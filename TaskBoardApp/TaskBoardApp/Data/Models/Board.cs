@@ -12,6 +12,6 @@ namespace TaskBoardApp.Data.Models
         [MaxLength(BoardConstants.BoardNameMaxLength)]
         public string Name { get; set; } = null!;
 
-        public IEnumerable<Task> Tasks { get; set; } = new HashSet<Task>();
+        public IEnumerable<Task> Tasks { get; set; } = new List<Task>();
     }
 }

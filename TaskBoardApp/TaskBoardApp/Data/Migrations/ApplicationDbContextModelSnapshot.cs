@@ -141,15 +141,15 @@ namespace TaskBoardApp.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "89b8049b-be07-46ae-a750-039595a9b21d",
+                            Id = "711bc276-fe99-4da6-950e-2765f9bff695",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "2e5b7c2d-bd9e-4837-bca6-6ce7ad1ffa26",
+                            ConcurrencyStamp = "2b2d2c5f-7d10-4d99-8aca-13bb44debd79",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedUserName = "TEST@SOFTUNI.BG",
-                            PasswordHash = "AQAAAAIAAYagAAAAEPPFSRcyVEUwS2qE+XNUavf6J/ITIB5p0Ps1vAHqc3bA/8u7eOO/fsQxD0FTpAelDA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEI4ooWbwI4BIETkeydAAFwBZzTh/ihk5Ikv45eXLKneh9Mv4U0JImjwj/7OPhwZM0w==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "90acdf7b-8ab1-44f6-b0bf-31fe32912de1",
+                            SecurityStamp = "92472830-80d0-4350-816d-1f21d25a51e4",
                             TwoFactorEnabled = false,
                             UserName = "test@softuni.bg"
                         });
@@ -316,36 +316,36 @@ namespace TaskBoardApp.Data.Migrations
                         {
                             Id = 1,
                             BoardId = 1,
-                            CreatedOn = new DateTime(2023, 7, 24, 13, 7, 54, 3, DateTimeKind.Local).AddTicks(1389),
+                            CreatedOn = new DateTime(2023, 7, 24, 15, 1, 50, 90, DateTimeKind.Local).AddTicks(9558),
                             Description = "Implement better styling for all public pages",
-                            OwnerId = "89b8049b-be07-46ae-a750-039595a9b21d",
+                            OwnerId = "711bc276-fe99-4da6-950e-2765f9bff695",
                             Title = "Improve CSS styles"
                         },
                         new
                         {
                             Id = 2,
                             BoardId = 1,
-                            CreatedOn = new DateTime(2023, 9, 9, 13, 7, 54, 3, DateTimeKind.Local).AddTicks(1440),
+                            CreatedOn = new DateTime(2023, 9, 9, 15, 1, 50, 90, DateTimeKind.Local).AddTicks(9615),
                             Description = "Create Android client app for the TaskBoard RESTful API",
-                            OwnerId = "89b8049b-be07-46ae-a750-039595a9b21d",
+                            OwnerId = "711bc276-fe99-4da6-950e-2765f9bff695",
                             Title = "Android Client App"
                         },
                         new
                         {
                             Id = 3,
                             BoardId = 2,
-                            CreatedOn = new DateTime(2024, 1, 9, 13, 7, 54, 3, DateTimeKind.Local).AddTicks(1445),
+                            CreatedOn = new DateTime(2024, 1, 9, 15, 1, 50, 90, DateTimeKind.Local).AddTicks(9620),
                             Description = "Create Windows Forms desktop app client for the TaskBoard RESTful API",
-                            OwnerId = "89b8049b-be07-46ae-a750-039595a9b21d",
+                            OwnerId = "711bc276-fe99-4da6-950e-2765f9bff695",
                             Title = "Desktop Client App"
                         },
                         new
                         {
                             Id = 4,
                             BoardId = 3,
-                            CreatedOn = new DateTime(2023, 2, 9, 13, 7, 54, 3, DateTimeKind.Local).AddTicks(1447),
+                            CreatedOn = new DateTime(2023, 2, 9, 15, 1, 50, 90, DateTimeKind.Local).AddTicks(9623),
                             Description = "Implement [Create Task] page for adding new tasks",
-                            OwnerId = "89b8049b-be07-46ae-a750-039595a9b21d",
+                            OwnerId = "711bc276-fe99-4da6-950e-2765f9bff695",
                             Title = "Create Tasks"
                         });
                 });
