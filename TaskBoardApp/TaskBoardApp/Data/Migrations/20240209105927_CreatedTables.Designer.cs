@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TaskBoardApp.Data;
 
@@ -11,9 +12,11 @@ using TaskBoardApp.Data;
 namespace TaskBoardApp.Data.Migrations
 {
     [DbContext(typeof(TaskBoardAppDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240209105927_CreatedTables")]
+    partial class CreatedTables
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -141,15 +144,15 @@ namespace TaskBoardApp.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "89b8049b-be07-46ae-a750-039595a9b21d",
+                            Id = "0d057a1d-c987-4b97-b521-5e621a2bf23b",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "2e5b7c2d-bd9e-4837-bca6-6ce7ad1ffa26",
+                            ConcurrencyStamp = "e5d3973a-93ac-473c-a0fc-68c4367d9e00",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
-                            NormalizedUserName = "TEST@SOFTUNI.BG",
-                            PasswordHash = "AQAAAAIAAYagAAAAEPPFSRcyVEUwS2qE+XNUavf6J/ITIB5p0Ps1vAHqc3bA/8u7eOO/fsQxD0FTpAelDA==",
+                            NormalizedEmail = "TEST@SOFTUNI.BG",
+                            PasswordHash = "AQAAAAIAAYagAAAAEMchVclrRLwlL942RSiZ2YGJnPIdCUcwu7gIT3PuF6IjGNC0VumLb50uNwgKJ979Jg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "90acdf7b-8ab1-44f6-b0bf-31fe32912de1",
+                            SecurityStamp = "abd5c0e7-eb00-42ca-995e-c860f5d657f9",
                             TwoFactorEnabled = false,
                             UserName = "test@softuni.bg"
                         });
@@ -316,36 +319,36 @@ namespace TaskBoardApp.Data.Migrations
                         {
                             Id = 1,
                             BoardId = 1,
-                            CreatedOn = new DateTime(2023, 7, 24, 13, 7, 54, 3, DateTimeKind.Local).AddTicks(1389),
+                            CreatedOn = new DateTime(2023, 7, 24, 12, 59, 27, 133, DateTimeKind.Local).AddTicks(6862),
                             Description = "Implement better styling for all public pages",
-                            OwnerId = "89b8049b-be07-46ae-a750-039595a9b21d",
+                            OwnerId = "0d057a1d-c987-4b97-b521-5e621a2bf23b",
                             Title = "Improve CSS styles"
                         },
                         new
                         {
                             Id = 2,
                             BoardId = 1,
-                            CreatedOn = new DateTime(2023, 9, 9, 13, 7, 54, 3, DateTimeKind.Local).AddTicks(1440),
+                            CreatedOn = new DateTime(2023, 9, 9, 12, 59, 27, 133, DateTimeKind.Local).AddTicks(6915),
                             Description = "Create Android client app for the TaskBoard RESTful API",
-                            OwnerId = "89b8049b-be07-46ae-a750-039595a9b21d",
+                            OwnerId = "0d057a1d-c987-4b97-b521-5e621a2bf23b",
                             Title = "Android Client App"
                         },
                         new
                         {
                             Id = 3,
                             BoardId = 2,
-                            CreatedOn = new DateTime(2024, 1, 9, 13, 7, 54, 3, DateTimeKind.Local).AddTicks(1445),
+                            CreatedOn = new DateTime(2024, 1, 9, 12, 59, 27, 133, DateTimeKind.Local).AddTicks(6919),
                             Description = "Create Windows Forms desktop app client for the TaskBoard RESTful API",
-                            OwnerId = "89b8049b-be07-46ae-a750-039595a9b21d",
+                            OwnerId = "0d057a1d-c987-4b97-b521-5e621a2bf23b",
                             Title = "Desktop Client App"
                         },
                         new
                         {
                             Id = 4,
                             BoardId = 3,
-                            CreatedOn = new DateTime(2023, 2, 9, 13, 7, 54, 3, DateTimeKind.Local).AddTicks(1447),
+                            CreatedOn = new DateTime(2023, 2, 9, 12, 59, 27, 133, DateTimeKind.Local).AddTicks(6922),
                             Description = "Implement [Create Task] page for adding new tasks",
-                            OwnerId = "89b8049b-be07-46ae-a750-039595a9b21d",
+                            OwnerId = "0d057a1d-c987-4b97-b521-5e621a2bf23b",
                             Title = "Create Tasks"
                         });
                 });
