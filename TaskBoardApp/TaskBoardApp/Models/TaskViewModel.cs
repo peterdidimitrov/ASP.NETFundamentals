@@ -1,16 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations;
-using TaskBoardApp.Data.DataConstants;
-
-namespace TaskBoardApp.Models
+﻿namespace TaskBoardApp.Models
 {
     public class TaskViewModel
     {
-        public int Id { get; init; }
+        public int Id { get; set; }
 
-        public string Title { get; init; } = null!;
+        public string Title { get; set; } = string.Empty;
 
-        public string Description { get; init; } = null!;
+        public string Description { get; set; } = string.Empty;
 
-        public string Owner { get; init; } = null!;
+        public string Owner { get; set; } = string.Empty;
     }
 }

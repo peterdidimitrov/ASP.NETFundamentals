@@ -1,14 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
-using TaskBoardApp.Data.DataConstants;
-
-namespace TaskBoardApp.Models
+﻿namespace TaskBoardApp.Models
 {
     public class BoardViewModel
     {
-        public int Id { get; init; }
+        public int Id { get; set; }
 
-        [StringLength(BoardConstants.BoardNameMaxLength, MinimumLength = BoardConstants.BoardNameMinLength, ErrorMessage = BoardConstants.ErrorMasageNameLength)]
-        public string Name { get; init; } = null!;
+        public string Name { get; set; } = string.Empty;
         public IEnumerable<TaskViewModel> Tasks { get; set; } = new List<TaskViewModel>();
     }
 }

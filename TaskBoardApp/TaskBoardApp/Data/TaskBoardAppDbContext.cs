@@ -1,8 +1,6 @@
-﻿using Microsoft.AspNetCore.Http.HttpResults;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using System.Reflection.Emit;
 using TaskBoardApp.Data.Models;
 using Task = TaskBoardApp.Data.Models.Task;
 
@@ -78,8 +76,8 @@ namespace TaskBoardApp.Data
             base.OnModelCreating(builder);
         }
 
-        public DbSet<Task> Tasks { get; set; } = null!;
-        public DbSet<Board> Boards { get; set; } = null!;
+        public virtual DbSet<Task> Tasks { get; set; } = null!;
+        public virtual DbSet<Board> Boards { get; set; } = null!;
 
         private void SeedUsers()
         {
