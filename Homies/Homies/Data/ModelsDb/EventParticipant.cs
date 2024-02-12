@@ -13,7 +13,7 @@ namespace Homies.Data.ModelsDb
         public IdentityUser Helper { get; set; } = null!;
         
         [Required]
-        public string EventId { get; set; } = string.Empty;
+        public int EventId { get; set; }
 
         [ForeignKey(nameof(EventId))]
         public Event Event { get; set; } = null!;
