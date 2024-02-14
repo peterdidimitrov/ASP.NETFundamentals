@@ -1,7 +1,6 @@
 ﻿#nullable disable
 
 using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -37,8 +36,14 @@ namespace TaskBoardApp.Areas.Identity.Pages.Account
             public string Password { get; set; }
         }
 
-        public async Task OnGetAsync(string returnUrl = null)
+        public async Task<IActionResult> OnGetAsync(string returnUrl = null)
         {
+            if (_signInManager.IsSignedIn(User))
+            {
+                returnUrl = "/";
+                return RedirectToPage(returnUrl);
+            }
+
             if (!string.IsNullOrEmpty(ErrorMessage))
             {
                 ModelState.AddModelError(string.Empty, ErrorMessage);
@@ -50,6 +55,8 @@ namespace TaskBoardApp.Areas.Identity.Pages.Account
             await HttpContext.SignOutAsync(IdentityConstants.ExternalScheme);
 
             ReturnUrl = returnUrl;
+
+            return Page();
         }
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
         {

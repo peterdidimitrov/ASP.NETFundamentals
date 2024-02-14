@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using TaskBoardApp.Data;
 using TaskBoardApp.Models.Home;
-using Microsoft.EntityFrameworkCore;
 
 namespace TaskBoardApp.Controllers
 {
