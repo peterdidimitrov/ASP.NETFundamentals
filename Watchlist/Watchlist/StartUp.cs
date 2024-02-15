@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Watchlist.Data;
+using Watchlist.Data.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,7 +10,7 @@ builder.Services.AddDbContext<WatchlistDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options =>
+builder.Services.AddDefaultIdentity<User>(options =>
 {
     options.SignIn.RequireConfirmedAccount = false;
     options.Password.RequiredLength = 5;
