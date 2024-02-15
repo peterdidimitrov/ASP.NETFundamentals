@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93966513-D617-4B9E-8C68-AD7BDBFCE7AD}|Watchlist\\Watchlist.csproj|c:\\users\\peter\\desktop\\asp.netfundamentals\\watchlist\\watchlist\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93966513-D617-4B9E-8C68-AD7BDBFCE7AD}|Watchlist\\Watchlist.csproj|solutionrelative:watchlist\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93966513-D617-4B9E-8C68-AD7BDBFCE7AD}|Watchlist\\Watchlist.csproj|c:\\users\\peter\\desktop\\asp.netfundamentals\\watchlist\\watchlist\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93966513-D617-4B9E-8C68-AD7BDBFCE7AD}|Watchlist\\Watchlist.csproj|solutionrelative:watchlist\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93966513-D617-4B9E-8C68-AD7BDBFCE7AD}|Watchlist\\Watchlist.csproj|c:\\users\\peter\\desktop\\asp.netfundamentals\\watchlist\\watchlist\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93966513-D617-4B9E-8C68-AD7BDBFCE7AD}|Watchlist\\Watchlist.csproj|solutionrelative:watchlist\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93966513-D617-4B9E-8C68-AD7BDBFCE7AD}|Watchlist\\Watchlist.csproj|c:\\users\\peter\\desktop\\asp.netfundamentals\\watchlist\\watchlist\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93966513-D617-4B9E-8C68-AD7BDBFCE7AD}|Watchlist\\Watchlist.csproj|solutionrelative:watchlist\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93966513-D617-4B9E-8C68-AD7BDBFCE7AD}|Watchlist\\Watchlist.csproj|c:\\users\\peter\\desktop\\asp.netfundamentals\\watchlist\\watchlist\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93966513-D617-4B9E-8C68-AD7BDBFCE7AD}|Watchlist\\Watchlist.csproj|solutionrelative:watchlist\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93966513-D617-4B9E-8C68-AD7BDBFCE7AD}|Watchlist\\Watchlist.csproj|c:\\users\\peter\\desktop\\asp.netfundamentals\\watchlist\\watchlist\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93966513-D617-4B9E-8C68-AD7BDBFCE7AD}|Watchlist\\Watchlist.csproj|solutionrelative:watchlist\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93966513-D617-4B9E-8C68-AD7BDBFCE7AD}|Watchlist\\Watchlist.csproj|c:\\users\\peter\\desktop\\asp.netfundamentals\\watchlist\\watchlist\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93966513-D617-4B9E-8C68-AD7BDBFCE7AD}|Watchlist\\Watchlist.csproj|solutionrelative:watchlist\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\Watchlist\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Watchlist\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\Watchlist\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Watchlist\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-15T14:38:20.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\Watchlist\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Watchlist\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\Watchlist\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Watchlist\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAF8AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T13:42:56.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\Watchlist\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Watchlist\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\Watchlist\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Watchlist\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-15T13:39:33.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\Watchlist\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Watchlist\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\Watchlist\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "Watchlist\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAAAFcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T13:38:33.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\Watchlist\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "Watchlist\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ToolTip": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\Watchlist\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeToolTip": "Watchlist\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T13:26:59.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StartUp.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\Watchlist\\StartUp.cs",
+              "RelativeDocumentMoniker": "Watchlist\\StartUp.cs",
+              "ToolTip": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\Watchlist\\StartUp.cs",
+              "RelativeToolTip": "Watchlist\\StartUp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T13:18:41.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\Watchlist\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "Watchlist\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\Watchlist\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "Watchlist\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-15T13:26:35.859Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

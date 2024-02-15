@@ -64,7 +64,6 @@ C:\Users\Peter\Desktop\ASP.NETFundamentals\Homies\Homies\obj\Debug\net6.0\static
 C:\Users\Peter\Desktop\ASP.NETFundamentals\Homies\Homies\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Peter\Desktop\ASP.NETFundamentals\Homies\Homies\obj\Debug\net6.0\scopedcss\bundle\Homies.styles.css
 C:\Users\Peter\Desktop\ASP.NETFundamentals\Homies\Homies\obj\Debug\net6.0\scopedcss\projectbundle\Homies.bundle.scp.css
-C:\Users\Peter\Desktop\ASP.NETFundamentals\Homies\Homies\obj\Debug\net6.0\Homies.csproj.CopyComplete
 C:\Users\Peter\Desktop\ASP.NETFundamentals\Homies\Homies\obj\Debug\net6.0\Homies.dll
 C:\Users\Peter\Desktop\ASP.NETFundamentals\Homies\Homies\obj\Debug\net6.0\refint\Homies.dll
 C:\Users\Peter\Desktop\ASP.NETFundamentals\Homies\Homies\obj\Debug\net6.0\Homies.pdb
@@ -572,3 +571,4 @@ C:\Users\fuji\Desktop\ASP.NETFundamentals\Homies\Homies\obj\Debug\net6.0\refint\
 C:\Users\fuji\Desktop\ASP.NETFundamentals\Homies\Homies\obj\Debug\net6.0\Homies.pdb
 C:\Users\fuji\Desktop\ASP.NETFundamentals\Homies\Homies\obj\Debug\net6.0\Homies.genruntimeconfig.cache
 C:\Users\fuji\Desktop\ASP.NETFundamentals\Homies\Homies\obj\Debug\net6.0\ref\Homies.dll
+C:\Users\Peter\Desktop\ASP.NETFundamentals\Homies\Homies\obj\Debug\net6.0\Homies.csproj.Up2Date
