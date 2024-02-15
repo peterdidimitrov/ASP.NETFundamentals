@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using SoftUniBazar.Data;
 using SoftUniBazar.Data.ModelsDb;
 using SoftUniBazar.Models;
+using System.Globalization;
 using System.Security.Claims;
 using static SoftUniBazar.Constants.AdConstants;
 
@@ -42,6 +43,7 @@ namespace SoftUniBazar.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> AddToCart(int id)
         {
             var ad = await context.Ads
@@ -69,9 +71,11 @@ namespace SoftUniBazar.Controllers
                 };
                 await context.AdBuyers.AddAsync(adbuyer);
                 await context.SaveChangesAsync();
+
+                return RedirectToAction(nameof(Cart));
             }
 
-            return RedirectToAction(nameof(Cart));
+            return RedirectToAction("All");
         }
 
         [HttpGet]
@@ -98,6 +102,7 @@ namespace SoftUniBazar.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> RemoveFromCart(int id)
         {
             var e = await context.Ads
@@ -127,20 +132,121 @@ namespace SoftUniBazar.Controllers
             return RedirectToAction("All");
         }
 
+        [HttpGet]
+        public async Task<IActionResult> Add()
+        {
+            var model = new AdFormViewModel();
+            model.Categories = await GetAllCategories();
+            return View(model);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Add(AdFormViewModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                model.Categories = await GetAllCategories();
+                return View(model);
+            }
+
+            var entity = new Ad()
+            {
+                Name = model.Name,
+                Description = model.Description,
+                ImageUrl = model.ImageUrl,
+                Price = model.Price,
+                CategoryId = model.CategoryId,
+                CreatedOn = DateTime.Now,
+                OwnerId = GetUserId()
+            };
+
+            await context.AddAsync(entity);
+            await context.SaveChangesAsync();
+
+            return RedirectToAction("All");
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Edit(int id)
+        {
+            var ad = await context
+                .Ads.FindAsync(id);
+
+            if (ad == null)
+            {
+                return BadRequest();
+            }
+
+            if (ad.OwnerId != GetUserId())
+            {
+                return Unauthorized();
+            }
+
+            var model = new AdFormViewModel()
+            {
+                Name = ad.Name,
+                Description = ad.Description,
+                ImageUrl = ad.ImageUrl,
+                Price = ad.Price,
+                CategoryId = ad.CategoryId
+            };
+
+            model.Categories = await GetAllCategories();
+
+            return View(model);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(AdFormViewModel model, int id)
+        {
+            var ad = await context
+                .Ads.FindAsync(id);
+
+            if (ad == null)
+            {
+                return BadRequest();
+            }
+
+            if (ad.OwnerId != GetUserId())
+            {
+                return Unauthorized();
+            }
+
+            if (!ModelState.IsValid)
+            {
+                model.Categories = await GetAllCategories();
+
+                return View(model);
+            }
+
+            ad.Name = model.Name;
+            ad.Description = model.Description;
+            ad.ImageUrl = model.ImageUrl;
+            ad.Price = model.Price;
+            ad.CategoryId = model.CategoryId;
+
+            await context.SaveChangesAsync();
+
+            return RedirectToAction("All");
+        }
+
         private string GetUserId()
         {
             return User.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? string.Empty;
         }
-        //private async Task<IEnumerable<TypeViewModel>> GetTypes()
-        //{
-        //    return await context
-        //        .Types
-        //        .AsNoTracking()
-        //        .Select(t => new TypeViewModel(t.Name)
-        //        {
-        //            Id = t.Id,
-        //        })
-        //        .ToListAsync();
-        //}
+        private async Task<IEnumerable<CategoryViewModel>> GetAllCategories()
+        {
+            return await context
+                .Categories
+                .AsNoTracking()
+                .Select(c => new CategoryViewModel()
+                {
+                    Id = c.Id,
+                    Name = c.Name
+                })
+                .ToListAsync();
+        }
     }
 }

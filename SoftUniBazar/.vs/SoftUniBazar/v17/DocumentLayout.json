@@ -5,6 +5,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{453A73E3-9636-4793-AF29-B7F0FC8C54D9}|SoftUniBazar\\SoftUniBazar.csproj|c:\\users\\peter\\desktop\\asp.netfundamentals\\softunibazar\\softunibazar\\controllers\\adcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{453A73E3-9636-4793-AF29-B7F0FC8C54D9}|SoftUniBazar\\SoftUniBazar.csproj|solutionrelative:softunibazar\\controllers\\adcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{453A73E3-9636-4793-AF29-B7F0FC8C54D9}|SoftUniBazar\\SoftUniBazar.csproj|c:\\users\\peter\\desktop\\asp.netfundamentals\\softunibazar\\softunibazar\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{453A73E3-9636-4793-AF29-B7F0FC8C54D9}|SoftUniBazar\\SoftUniBazar.csproj|solutionrelative:softunibazar\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{453A73E3-9636-4793-AF29-B7F0FC8C54D9}|SoftUniBazar\\SoftUniBazar.csproj|c:\\users\\peter\\desktop\\asp.netfundamentals\\softunibazar\\softunibazar\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{453A73E3-9636-4793-AF29-B7F0FC8C54D9}|SoftUniBazar\\SoftUniBazar.csproj|solutionrelative:softunibazar\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{453A73E3-9636-4793-AF29-B7F0FC8C54D9}|SoftUniBazar\\SoftUniBazar.csproj|c:\\users\\peter\\desktop\\asp.netfundamentals\\softunibazar\\softunibazar\\views\\ad\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{453A73E3-9636-4793-AF29-B7F0FC8C54D9}|SoftUniBazar\\SoftUniBazar.csproj|solutionrelative:softunibazar\\views\\ad\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{453A73E3-9636-4793-AF29-B7F0FC8C54D9}|SoftUniBazar\\SoftUniBazar.csproj|c:\\users\\peter\\desktop\\asp.netfundamentals\\softunibazar\\softunibazar\\data\\modelsdb\\ad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{453A73E3-9636-4793-AF29-B7F0FC8C54D9}|SoftUniBazar\\SoftUniBazar.csproj|solutionrelative:softunibazar\\data\\modelsdb\\ad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +30,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\SoftUniBazar\\SoftUniBazar\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SoftUniBazar\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\SoftUniBazar\\SoftUniBazar\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SoftUniBazar\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABQAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T08:14:09.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\SoftUniBazar\\SoftUniBazar\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "SoftUniBazar\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\SoftUniBazar\\SoftUniBazar\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "SoftUniBazar\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAAAE8AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T08:00:57.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\SoftUniBazar\\SoftUniBazar\\Views\\Ad\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SoftUniBazar\\Views\\Ad\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\SoftUniBazar\\SoftUniBazar\\Views\\Ad\\Edit.cshtml",
+              "RelativeToolTip": "SoftUniBazar\\Views\\Ad\\Edit.cshtml",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAAAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-15T07:41:51.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Ad.cs",
+              "DocumentMoniker": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\SoftUniBazar\\SoftUniBazar\\Data\\ModelsDb\\Ad.cs",
+              "RelativeDocumentMoniker": "SoftUniBazar\\Data\\ModelsDb\\Ad.cs",
+              "ToolTip": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\SoftUniBazar\\SoftUniBazar\\Data\\ModelsDb\\Ad.cs",
+              "RelativeToolTip": "SoftUniBazar\\Data\\ModelsDb\\Ad.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAAAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T06:43:46.104Z"
             },
             {
               "$type": "Document",
@@ -28,7 +92,7 @@
               "RelativeDocumentMoniker": "SoftUniBazar\\Controllers\\AdController.cs",
               "ToolTip": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\SoftUniBazar\\SoftUniBazar\\Controllers\\AdController.cs",
               "RelativeToolTip": "SoftUniBazar\\Controllers\\AdController.cs",
-              "ViewState": "AQIAAGoAAAAAAAAAAAAAAHIAAAAZAAAA",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAAAJUAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-14T11:27:20.667Z",
               "EditorCaption": ""

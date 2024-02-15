@@ -756,7 +756,6 @@ C:\Users\Peter\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\obj\Debug\net8.0\st
 C:\Users\Peter\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Peter\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\obj\Debug\net8.0\scopedcss\bundle\MvcMovie.styles.css
 C:\Users\Peter\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\obj\Debug\net8.0\scopedcss\projectbundle\MvcMovie.bundle.scp.css
-C:\Users\Peter\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\obj\Debug\net8.0\MvcMovie.csproj.CopyComplete
 C:\Users\Peter\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\obj\Debug\net8.0\MvcMovie.dll
 C:\Users\Peter\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\obj\Debug\net8.0\refint\MvcMovie.dll
 C:\Users\Peter\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\obj\Debug\net8.0\MvcMovie.pdb
@@ -782,3 +781,4 @@ C:\Users\fuji\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\bin\Debug\net8.0\Mic
 C:\Users\fuji\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
 C:\Users\fuji\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\fuji\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\bin\Debug\net8.0\Microsoft.JSInterop.dll
+C:\Users\Peter\Desktop\ASP.NETFundamentals\MvcMovie\MvcMovie\obj\Debug\net8.0\MvcMovie.csproj.Up2Date
