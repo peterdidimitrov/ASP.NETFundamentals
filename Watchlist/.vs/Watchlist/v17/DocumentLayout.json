@@ -1,43 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{93966513-D617-4B9E-8C68-AD7BDBFCE7AD}|Watchlist\\Watchlist.csproj|c:\\users\\peter\\desktop\\asp.netfundamentals\\watchlist\\watchlist\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93966513-D617-4B9E-8C68-AD7BDBFCE7AD}|Watchlist\\Watchlist.csproj|solutionrelative:watchlist\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93966513-D617-4B9E-8C68-AD7BDBFCE7AD}|Watchlist\\Watchlist.csproj|c:\\users\\peter\\desktop\\asp.netfundamentals\\watchlist\\watchlist\\data\\models\\usermovie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93966513-D617-4B9E-8C68-AD7BDBFCE7AD}|Watchlist\\Watchlist.csproj|solutionrelative:watchlist\\data\\models\\usermovie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\SoftUniBazar\\SoftUniBazar\\Controllers\\AdController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93966513-D617-4B9E-8C68-AD7BDBFCE7AD}|Watchlist\\Watchlist.csproj|c:\\users\\peter\\desktop\\asp.netfundamentals\\watchlist\\watchlist\\views\\movies\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{93966513-D617-4B9E-8C68-AD7BDBFCE7AD}|Watchlist\\Watchlist.csproj|solutionrelative:watchlist\\views\\movies\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93966513-D617-4B9E-8C68-AD7BDBFCE7AD}|Watchlist\\Watchlist.csproj|c:\\users\\peter\\desktop\\asp.netfundamentals\\watchlist\\watchlist\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{93966513-D617-4B9E-8C68-AD7BDBFCE7AD}|Watchlist\\Watchlist.csproj|solutionrelative:watchlist\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93966513-D617-4B9E-8C68-AD7BDBFCE7AD}|Watchlist\\Watchlist.csproj|c:\\users\\peter\\desktop\\asp.netfundamentals\\watchlist\\watchlist\\data\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93966513-D617-4B9E-8C68-AD7BDBFCE7AD}|Watchlist\\Watchlist.csproj|solutionrelative:watchlist\\data\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93966513-D617-4B9E-8C68-AD7BDBFCE7AD}|Watchlist\\Watchlist.csproj|c:\\users\\peter\\desktop\\asp.netfundamentals\\watchlist\\watchlist\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93966513-D617-4B9E-8C68-AD7BDBFCE7AD}|Watchlist\\Watchlist.csproj|solutionrelative:watchlist\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93966513-D617-4B9E-8C68-AD7BDBFCE7AD}|Watchlist\\Watchlist.csproj|c:\\users\\peter\\desktop\\asp.netfundamentals\\watchlist\\watchlist\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93966513-D617-4B9E-8C68-AD7BDBFCE7AD}|Watchlist\\Watchlist.csproj|solutionrelative:watchlist\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93966513-D617-4B9E-8C68-AD7BDBFCE7AD}|Watchlist\\Watchlist.csproj|c:\\users\\peter\\desktop\\asp.netfundamentals\\watchlist\\watchlist\\data\\watchlistdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93966513-D617-4B9E-8C68-AD7BDBFCE7AD}|Watchlist\\Watchlist.csproj|solutionrelative:watchlist\\data\\watchlistdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -45,115 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "All.cshtml",
-              "DocumentMoniker": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\Watchlist\\Views\\Movies\\All.cshtml",
-              "RelativeDocumentMoniker": "Watchlist\\Views\\Movies\\All.cshtml",
-              "ToolTip": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\Watchlist\\Views\\Movies\\All.cshtml",
-              "RelativeToolTip": "Watchlist\\Views\\Movies\\All.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-16T09:26:13.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MoviesController.cs",
-              "DocumentMoniker": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\Watchlist\\Controllers\\MoviesController.cs",
-              "RelativeDocumentMoniker": "Watchlist\\Controllers\\MoviesController.cs",
-              "ToolTip": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\Watchlist\\Controllers\\MoviesController.cs",
-              "RelativeToolTip": "Watchlist\\Controllers\\MoviesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T07:15:14.292Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\Watchlist\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Watchlist\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\Watchlist\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "Watchlist\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-16T06:47:00.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserMovie.cs",
-              "DocumentMoniker": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\Watchlist\\Data\\Models\\UserMovie.cs",
-              "RelativeDocumentMoniker": "Watchlist\\Data\\Models\\UserMovie.cs",
-              "ToolTip": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\Watchlist\\Data\\Models\\UserMovie.cs",
-              "RelativeToolTip": "Watchlist\\Data\\Models\\UserMovie.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T06:36:31.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Genre.cs",
-              "DocumentMoniker": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\Watchlist\\Data\\Models\\Genre.cs",
-              "RelativeDocumentMoniker": "Watchlist\\Data\\Models\\Genre.cs",
-              "ToolTip": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\Watchlist\\Data\\Models\\Genre.cs",
-              "RelativeToolTip": "Watchlist\\Data\\Models\\Genre.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T06:36:02.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WatchlistDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\Watchlist\\Data\\WatchlistDbContext.cs",
-              "RelativeDocumentMoniker": "Watchlist\\Data\\WatchlistDbContext.cs",
-              "ToolTip": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\Watchlist\\Data\\WatchlistDbContext.cs",
-              "RelativeToolTip": "Watchlist\\Data\\WatchlistDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T06:22:07.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\Watchlist\\Data\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Watchlist\\Data\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\Watchlist\\Data\\Models\\User.cs",
-              "RelativeToolTip": "Watchlist\\Data\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T06:21:27.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "StartUp.cs",
-              "DocumentMoniker": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\Watchlist\\StartUp.cs",
-              "RelativeDocumentMoniker": "Watchlist\\StartUp.cs",
-              "ToolTip": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\Watchlist\\Watchlist\\StartUp.cs",
-              "RelativeToolTip": "Watchlist\\StartUp.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T06:16:09.618Z",
-              "EditorCaption": ""
             }
           ]
         },
@@ -164,40 +24,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "8dcf3e26-8d76-4e91-a040-c98aab5839c7",
-        "Display": 0,
-        "X": 23,
-        "Y": 50,
-        "Width": 1009,
-        "Height": 774,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AdController.cs",
-              "DocumentMoniker": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\SoftUniBazar\\SoftUniBazar\\Controllers\\AdController.cs",
-              "RelativeDocumentMoniker": "..\\SoftUniBazar\\SoftUniBazar\\Controllers\\AdController.cs",
-              "ToolTip": "C:\\Users\\Peter\\Desktop\\ASP.NETFundamentals\\SoftUniBazar\\SoftUniBazar\\Controllers\\AdController.cs",
-              "RelativeToolTip": "..\\SoftUniBazar\\SoftUniBazar\\Controllers\\AdController.cs",
-              "ViewState": "AQIAAM4AAAAAAAAAAAAAAE0AAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T08:38:57.235Z",
-              "EditorCaption": ""
             }
           ]
         }

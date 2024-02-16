@@ -102,7 +102,6 @@ namespace SoftUniBazar.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
         public async Task<IActionResult> RemoveFromCart(int id)
         {
             var e = await context.Ads
@@ -141,7 +140,6 @@ namespace SoftUniBazar.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Add(AdFormViewModel model)
         {
             if (!ModelState.IsValid)
