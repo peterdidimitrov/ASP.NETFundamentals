@@ -28,7 +28,7 @@ namespace SeminarHub.Data
             .HasOne(ep => ep.Seminar)
             .WithMany(e => e.SeminarsParticipants)
             .HasForeignKey(ep => ep.SeminarId)
-            .OnDelete(DeleteBehavior.NoAction);
+            .OnDelete(DeleteBehavior.Restrict);
 
             builder
                .Entity<Category>()

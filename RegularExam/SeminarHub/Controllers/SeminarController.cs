@@ -183,7 +183,7 @@ namespace SeminarHub.Controllers
                 Topic = seminar.Topic,
                 Lecturer = seminar.Lecturer,
                 Details = seminar.Details,
-                DateAndTime = seminar.DateAndTime.ToString(SeminarDateFormat),
+                DateAndTime = seminar.DateAndTime.ToString(SeminarDateFormat, CultureInfo.InvariantCulture),
                 Duration = (int)seminar.Duration,
                 CategoryId = seminar.CategoryId
             };
@@ -283,7 +283,9 @@ namespace SeminarHub.Controllers
         [HttpPost]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var seminar = await context.Seminars.FindAsync(id);
+            var seminar = await context.Seminars
+                .Include(s => s.SeminarsParticipants)
+                .FirstOrDefaultAsync(s => s.Id == id);
 
             if (seminar == null)
             {
@@ -295,6 +297,11 @@ namespace SeminarHub.Controllers
             if (currentUserId != seminar.OrganizerId)
             {
                 return Unauthorized();
+            }
+
+            if (seminar.SeminarsParticipants.Any())
+            {
+                context.SeminarParticipants.RemoveRange(seminar.SeminarsParticipants);
             }
 
             context.Seminars.Remove(seminar);

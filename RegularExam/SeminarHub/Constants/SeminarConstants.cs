@@ -11,6 +11,9 @@
         public const int SeminarDetailsMaxLength = 500;
         public const int SeminarDetailsMinLength = 10;
 
+        public const int SeminarMinDuration = 30;
+        public const int SeminarMaxDuration = 180;
+
         public const string SeminarDateFormat = "dd/MM/yyyy HH:mm";
     }
 }

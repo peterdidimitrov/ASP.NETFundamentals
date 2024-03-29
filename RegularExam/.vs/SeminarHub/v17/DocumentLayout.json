@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fuji\\Desktop\\ASP.NETFundamentals\\RegularExam\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|c:\\users\\fuji\\desktop\\asp.netfundamentals\\regularexam\\seminarhub\\controllers\\seminarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|solutionrelative:seminarhub\\controllers\\seminarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|c:\\users\\fuji\\desktop\\asp.netfundamentals\\regularexam\\seminarhub\\views\\seminar\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|solutionrelative:seminarhub\\views\\seminar\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|c:\\users\\fuji\\desktop\\asp.netfundamentals\\regularexam\\seminarhub\\models\\seminarformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|solutionrelative:seminarhub\\models\\seminarformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|c:\\users\\fuji\\desktop\\asp.netfundamentals\\regularexam\\seminarhub\\views\\seminar\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|solutionrelative:seminarhub\\views\\seminar\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|c:\\users\\fuji\\desktop\\asp.netfundamentals\\regularexam\\seminarhub\\models\\seminarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|solutionrelative:seminarhub\\models\\seminarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|c:\\users\\fuji\\desktop\\asp.netfundamentals\\regularexam\\seminarhub\\data\\modelsdb\\seminar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|solutionrelative:seminarhub\\data\\modelsdb\\seminar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|c:\\users\\fuji\\desktop\\asp.netfundamentals\\regularexam\\seminarhub\\views\\seminar\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|solutionrelative:seminarhub\\views\\seminar\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|c:\\users\\fuji\\desktop\\asp.netfundamentals\\regularexam\\seminarhub\\constants\\seminarconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|solutionrelative:seminarhub\\constants\\seminarconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|c:\\users\\fuji\\desktop\\asp.netfundamentals\\regularexam\\seminarhub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51CE381E-32A2-4CCD-98B3-8BDD8F8C98CE}|SeminarHub\\SeminarHub.csproj|solutionrelative:seminarhub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Seminar.cs",
+              "DocumentMoniker": "C:\\Users\\fuji\\Desktop\\ASP.NETFundamentals\\RegularExam\\SeminarHub\\Data\\ModelsDb\\Seminar.cs",
+              "RelativeDocumentMoniker": "SeminarHub\\Data\\ModelsDb\\Seminar.cs",
+              "ToolTip": "C:\\Users\\fuji\\Desktop\\ASP.NETFundamentals\\RegularExam\\SeminarHub\\Data\\ModelsDb\\Seminar.cs",
+              "RelativeToolTip": "SeminarHub\\Data\\ModelsDb\\Seminar.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAABAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T05:10:23.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\fuji\\Desktop\\ASP.NETFundamentals\\RegularExam\\SeminarHub\\Views\\Seminar\\Details.cshtml",
+              "RelativeDocumentMoniker": "SeminarHub\\Views\\Seminar\\Details.cshtml",
+              "ToolTip": "C:\\Users\\fuji\\Desktop\\ASP.NETFundamentals\\RegularExam\\SeminarHub\\Views\\Seminar\\Details.cshtml",
+              "RelativeToolTip": "SeminarHub\\Views\\Seminar\\Details.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-16T05:07:03.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SeminarConstants.cs",
+              "DocumentMoniker": "C:\\Users\\fuji\\Desktop\\ASP.NETFundamentals\\RegularExam\\SeminarHub\\Constants\\SeminarConstants.cs",
+              "RelativeDocumentMoniker": "SeminarHub\\Constants\\SeminarConstants.cs",
+              "ToolTip": "C:\\Users\\fuji\\Desktop\\ASP.NETFundamentals\\RegularExam\\SeminarHub\\Constants\\SeminarConstants.cs",
+              "RelativeToolTip": "SeminarHub\\Constants\\SeminarConstants.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T04:57:24.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SeminarFormViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\fuji\\Desktop\\ASP.NETFundamentals\\RegularExam\\SeminarHub\\Models\\SeminarFormViewModel.cs",
+              "RelativeDocumentMoniker": "SeminarHub\\Models\\SeminarFormViewModel.cs",
+              "ToolTip": "C:\\Users\\fuji\\Desktop\\ASP.NETFundamentals\\RegularExam\\SeminarHub\\Models\\SeminarFormViewModel.cs",
+              "RelativeToolTip": "SeminarHub\\Models\\SeminarFormViewModel.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T04:57:07.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SeminarViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\fuji\\Desktop\\ASP.NETFundamentals\\RegularExam\\SeminarHub\\Models\\SeminarViewModel.cs",
+              "RelativeDocumentMoniker": "SeminarHub\\Models\\SeminarViewModel.cs",
+              "ToolTip": "C:\\Users\\fuji\\Desktop\\ASP.NETFundamentals\\RegularExam\\SeminarHub\\Models\\SeminarViewModel.cs",
+              "RelativeToolTip": "SeminarHub\\Models\\SeminarViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T04:57:06.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeminarController.cs",
+              "DocumentMoniker": "C:\\Users\\fuji\\Desktop\\ASP.NETFundamentals\\RegularExam\\SeminarHub\\Controllers\\SeminarController.cs",
+              "RelativeDocumentMoniker": "SeminarHub\\Controllers\\SeminarController.cs",
+              "ToolTip": "C:\\Users\\fuji\\Desktop\\ASP.NETFundamentals\\RegularExam\\SeminarHub\\Controllers\\SeminarController.cs",
+              "RelativeToolTip": "SeminarHub\\Controllers\\SeminarController.cs",
+              "ViewState": "AQIAAKgAAAAAAAAAAAAkwLYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T04:53:21.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\fuji\\Desktop\\ASP.NETFundamentals\\RegularExam\\SeminarHub\\Views\\Seminar\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SeminarHub\\Views\\Seminar\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\fuji\\Desktop\\ASP.NETFundamentals\\RegularExam\\SeminarHub\\Views\\Seminar\\Edit.cshtml",
+              "RelativeToolTip": "SeminarHub\\Views\\Seminar\\Edit.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-16T04:52:08.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\fuji\\Desktop\\ASP.NETFundamentals\\RegularExam\\SeminarHub\\Views\\Seminar\\Add.cshtml",
+              "RelativeDocumentMoniker": "SeminarHub\\Views\\Seminar\\Add.cshtml",
+              "ToolTip": "C:\\Users\\fuji\\Desktop\\ASP.NETFundamentals\\RegularExam\\SeminarHub\\Views\\Seminar\\Add.cshtml",
+              "RelativeToolTip": "SeminarHub\\Views\\Seminar\\Add.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAAB0AAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-16T04:51:33.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fuji\\Desktop\\ASP.NETFundamentals\\RegularExam\\SeminarHub\\Program.cs",
+              "RelativeDocumentMoniker": "SeminarHub\\Program.cs",
+              "ToolTip": "C:\\Users\\fuji\\Desktop\\ASP.NETFundamentals\\RegularExam\\SeminarHub\\Program.cs",
+              "RelativeToolTip": "SeminarHub\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T16:52:02.472Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
